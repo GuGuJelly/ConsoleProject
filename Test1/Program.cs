@@ -7,6 +7,7 @@
             public string name;
             public int id;
             public int maxHP;
+            public int attack;
         }
 
         struct Monster 
