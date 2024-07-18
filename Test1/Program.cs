@@ -9,6 +9,11 @@
             public int maxHP;
         }
 
+        struct Monster 
+        {
+            public string Slime;
+        }
+
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
