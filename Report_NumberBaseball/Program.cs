@@ -13,8 +13,12 @@ namespace Report_NumberBaseball
             Console.WriteLine($"{cNumber1}{cNumber2}{cNumber3}");
             Console.WriteLine("컴퓨터는 3개의 숫자를 기억했답니다. 인간님 숫자를 입력해주세요 : ");
 
-            for (int i = 1; i < 11; i++)
+            for (int i = 1; i < 12; i++)
             {
+                if(i == 11)
+                {
+                    Console.WriteLine("컴퓨터의 승리!");
+                }
                 Console.WriteLine($"{i}번째 이닝 시작!");
                 Console.WriteLine("인간님 3개의 숫자를 입력 부탁드립니다 : ");
                 int.TryParse(Console.ReadLine(), out int input1);
